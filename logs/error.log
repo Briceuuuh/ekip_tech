@@ -51,3 +51,96 @@ Stack Trace:
 
 Request URL: /users/add
 Referer URL: http://localhost:8765/users/add
+2023-05-06 13:30:26 error: [Cake\Http\Exception\MissingControllerException] Controller class Ekip_tech could not be found. in /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Ekip_tech',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Ekip_tech',
+)
+Stack Trace:
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/fitzflorian/delivery/webcup/ekip_tech/webroot/index.php:40
+
+Request URL: /ekip_tech/users/login?redirect=%2F
+2023-05-06 13:30:57 error: [Cake\Http\Exception\MissingControllerException] Controller class Ekip_tech could not be found. in /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Ekip_tech',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Ekip_tech',
+)
+Stack Trace:
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/fitzflorian/delivery/webcup/ekip_tech/webroot/index.php:40
+
+Request URL: /ekip_tech/users/login?redirect=%2F
+2023-05-06 13:31:42 error: [Cake\Http\Exception\MissingControllerException] Controller class Ekip_tech could not be found. in /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Ekip_tech',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Ekip_tech',
+)
+Stack Trace:
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/fitzflorian/delivery/webcup/ekip_tech/webroot/index.php:40
+
+Request URL: /ekip_tech/users/login?redirect=%2F

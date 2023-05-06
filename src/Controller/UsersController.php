@@ -31,12 +31,12 @@ class UsersController extends AppController
         $res = $this->Authentication->getResult();
 
         if ($res->isValid()) {
-            $redirection = $this->request->getQuery('redirect', [
+            $redirection= $this->request->getQuery('redirect', [
                 'controller' => 'Users',
                 'action' => 'Add'
             ]);
-            $redirectionUrl = $this->getRequest()->getAttribute('webroot') . ltrim(Router::url($redirection), '/');
-            return $this->redirect($redirectionUrl);
+
+            return ($this->redirect($redirection));
         }
         if ($this->request->is('post') && !$res->isValid())
             $this->Flash->error("Email ou mot de passe invalide");
