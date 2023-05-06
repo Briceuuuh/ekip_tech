@@ -2,3 +2,52 @@
 2023-05-06 07:51:05 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
 2023-05-06 08:07:48 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
 2023-05-06 08:45:04 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 10:21:55 error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or invalid CSRF cookie. in /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 394
+Stack Trace:
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:170
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/fitzflorian/delivery/webcup/ekip_tech/webroot/index.php:40
+
+Request URL: /users/add
+Referer URL: http://localhost:8765/users/add
+2023-05-06 10:23:45 error: [Error] Class "App\Model\Entity\DefaultPasswordHasher" not found in /Users/fitzflorian/delivery/webcup/ekip_tech/src/Model/Entity/User.php on line 54
+Stack Trace:
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Datasource/EntityTrait.php:260
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/ORM/Marshaller.php:606
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/ORM/Table.php:2886
+- /Users/fitzflorian/delivery/webcup/ekip_tech/src/Controller/UsersController.php:51
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/fitzflorian/delivery/webcup/ekip_tech/webroot/index.php:40
+
+Request URL: /users/add
+Referer URL: http://localhost:8765/users/add
