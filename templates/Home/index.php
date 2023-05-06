@@ -15,11 +15,16 @@
       $connected = $this->request->getAttribute('identity');
         if ($connected) {
           $name = $this->request->getAttribute('identity')->firstname;
+          $admin = $this->request->getAttribute('identity')->admin;
           echo '<a>' . $name . '</a>';
+          if ($admin == 0)
+            echo $this->Html->link(__('Admin Panel'), ['controller' => 'users', 'action' => 'index'], ['class' => 'button']);
           echo $this->Html->link(__('Logout'), ['controller' => 'users', 'action' => 'logout'], ['class' => 'button']);
         }
-        else
+        else {
           echo $this->Html->link(__('Login'), ['controller' => 'users', 'action' => 'login'], ['class' => 'button']);
+          echo $this->Html->link(__('Sign up'), ['controller' => 'users', 'action' => 'signup'], ['class' => 'button']);
+        }
     ?>
     <!-- <?= $this->Html->link(__('Login'), ['controller' => 'users', 'action' => 'login'], ['class' => 'button']) ?> -->
     <!-- <?= $this->Html->link(__('SignUp'), ['action' => 'login'], ['class' => 'button']) ?> -->

@@ -111,7 +111,7 @@ class Application extends BaseApplication implements AuthenticationServiceProvid
     public function getAuthenticationService(ServerRequestInterface $request) : AuthenticationServiceInterface
     {
         $auth = new AuthenticationService([
-            'unauthenticatedRedirect' => '/ekip/users/login',
+            'unauthenticatedRedirect' => '/users/login',
             'queryParam' => 'redirect'
         ]);
 
@@ -127,7 +127,7 @@ class Application extends BaseApplication implements AuthenticationServiceProvid
                 'username' => 'email',
                 'password' => 'password'
             ],
-            'loginUrl' => '/ekip/users/login'
+            'loginUrl' => '/users/login'
         ]);
         return ($auth);
     }

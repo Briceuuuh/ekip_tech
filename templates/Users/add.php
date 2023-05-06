@@ -17,11 +17,11 @@
             <fieldset>
                 <legend><?= __('Add User') ?></legend>
                 <?php
-                    echo $this->Form->control('email');
-                    echo $this->Form->control('password');
-                    echo $this->Form->control('name');
-                    echo $this->Form->control('firstname');
-                    echo $this->Form->control('admin');
+                    echo $this->Form->input('email');
+                    echo $this->Form->input('password');
+                    echo $this->Form->input('name');
+                    echo $this->Form->input('firstname');
+                    // echo $this->Form->control('admin');
                 ?>
             </fieldset>
             <?= $this->Form->button(__('Submit')) ?>
