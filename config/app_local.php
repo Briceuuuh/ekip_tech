@@ -25,7 +25,7 @@ return [
      *   You should treat it as extremely sensitive data.
      */
     'Security' => [
-        'salt' => env('SECURITY_SALT', '6d6807ff173a689ecca9599ac6b00f6214986a9584d2d8652e3190fc9ef42bba'),
+        'salt' => env('SECURITY_SALT', 'ada0d5a5b33e2f4861910d47f9b7fa6f083cdfda72fdc662d5f99a7f005098af'),
     ],
 
     /*
@@ -64,11 +64,11 @@ return [
          * The test connection is used during the test suite.
          */
         'test' => [
-            'host' => 'ekiptech.lareunion.webcup.hodi.host',
+            'host' => 'localhost',
             //'port' => 'non_standard_port_number',
-            'username' => 'ekiptech_flow',
-            'password' => 'TheFitzFlow',
-            'database' => 'ekiptech_project',
+            'username' => 'my_app',
+            'password' => 'secret',
+            'database' => 'test_myapp',
             //'schema' => 'myapp',
             'url' => env('DATABASE_TEST_URL', 'sqlite://127.0.0.1/tests.sqlite'),
         ],

@@ -1,57 +1,441 @@
-2023-05-06 07:48:39 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
-2023-05-06 07:51:05 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
-2023-05-06 08:07:48 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
-2023-05-06 08:45:04 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
-2023-05-06 10:21:55 error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or invalid CSRF cookie. in /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 394
+2023-05-06 11:54:40 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 12:03:57 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 12:06:59 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 12:07:57 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 12:14:10 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 12:15:42 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 12:15:47 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 12:23:31 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 12:25:14 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 12:26:01 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 12:30:45 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 12:37:45 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 12:37:45 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 12:38:00 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 12:38:00 error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or invalid CSRF cookie. in /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 394
 Stack Trace:
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:170
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:67
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Server.php:90
-- /Users/fitzflorian/delivery/webcup/ekip_tech/webroot/index.php:40
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:170
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/ekiptech/public_html/ekip/webroot/index.php:40
+
+Request URL: /users/login?redirect=%2F
+Referer URL: https://ekiptech.lareunion.webcup.hodi.host/ekip/users/login?redirect=%2F
+Client IP: 165.169.76.22
+2023-05-06 12:39:41 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 12:39:44 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 12:41:30 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 12:41:34 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 12:41:35 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 12:41:35 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 12:41:35 error: [Cake\Http\Exception\MissingControllerException] Controller class Ekip could not be found. in /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Ekip',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Ekip',
+)
+Stack Trace:
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/ekiptech/public_html/ekip/webroot/index.php:40
+
+Request URL: /ekip/users/login?redirect=%2F
+Client IP: 165.169.76.22
+2023-05-06 12:43:04 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 12:43:04 error: [Cake\Http\Exception\MissingControllerException] Controller class Ekip could not be found. in /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Ekip',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Ekip',
+)
+Stack Trace:
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/ekiptech/public_html/ekip/webroot/index.php:40
+
+Request URL: /ekip/users/login?redirect=%2F
+Client IP: 165.169.76.22
+2023-05-06 12:43:12 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 12:43:35 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 12:43:35 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 12:43:35 error: [Cake\Http\Exception\MissingControllerException] Controller class Ekip could not be found. in /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Ekip',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Ekip',
+)
+Stack Trace:
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/ekiptech/public_html/ekip/webroot/index.php:40
+
+Request URL: /ekip/users/login?redirect=%2F
+Client IP: 165.169.76.22
+2023-05-06 12:43:38 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 12:43:53 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 12:43:53 error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or invalid CSRF cookie. in /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 394
+Stack Trace:
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:170
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/ekiptech/public_html/ekip/webroot/index.php:40
+
+Request URL: /users/login?redirect=%2F
+Referer URL: https://ekiptech.lareunion.webcup.hodi.host/ekip/users/login?redirect=%2F
+Client IP: 165.169.76.22
+2023-05-06 12:46:41 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 12:46:41 error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or invalid CSRF cookie. in /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 394
+Stack Trace:
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:170
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/ekiptech/public_html/ekip/webroot/index.php:40
+
+Request URL: /users/login?redirect=%2F
+Referer URL: https://ekiptech.lareunion.webcup.hodi.host/ekip/users/login?redirect=%2F
+Client IP: 165.169.76.22
+2023-05-06 12:47:55 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 12:48:03 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 12:48:03 error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or invalid CSRF cookie. in /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 394
+Stack Trace:
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:170
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/ekiptech/public_html/ekip/webroot/index.php:40
+
+Request URL: /users/login?redirect=%2F
+Referer URL: https://ekiptech.lareunion.webcup.hodi.host/ekip/users/login?redirect=%2F
+Client IP: 165.169.76.22
+2023-05-06 12:48:21 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 12:48:21 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 12:48:21 error: [Cake\Http\Exception\MissingControllerException] Controller class Ekip could not be found. in /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Ekip',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Ekip',
+)
+Stack Trace:
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/ekiptech/public_html/ekip/webroot/index.php:40
+
+Request URL: /ekip/users/login?redirect=%2F
+Client IP: 165.169.76.22
+2023-05-06 12:48:39 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 12:48:44 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 12:48:44 error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or invalid CSRF cookie. in /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 394
+Stack Trace:
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:170
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/ekiptech/public_html/ekip/webroot/index.php:40
+
+Request URL: /users/login?redirect=%2F
+Referer URL: https://ekiptech.lareunion.webcup.hodi.host/ekip/users/login?redirect=%2F
+Client IP: 165.169.76.22
+2023-05-06 12:54:54 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 12:54:54 error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or invalid CSRF cookie. in /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 394
+Stack Trace:
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:170
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/ekiptech/public_html/ekip/webroot/index.php:40
+
+Request URL: /users/login?redirect=%2F
+Referer URL: https://ekiptech.lareunion.webcup.hodi.host/ekip/users/login?redirect=%2F
+Client IP: 165.169.76.22
+2023-05-06 12:58:48 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 12:58:48 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 12:58:48 error: [Cake\Http\Exception\MissingControllerException] Controller class Ekip could not be found. in /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Ekip',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Ekip',
+)
+Stack Trace:
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/ekiptech/public_html/ekip/webroot/index.php:40
+
+Request URL: /ekip/users/login?redirect=%2F
+Client IP: 165.169.76.22
+2023-05-06 12:58:52 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 12:59:43 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 13:00:09 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 13:00:09 error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or invalid CSRF cookie. in /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 394
+Stack Trace:
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:170
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/ekiptech/public_html/ekip/webroot/index.php:40
+
+Request URL: /users/login?redirect=%2F
+Referer URL: https://ekiptech.lareunion.webcup.hodi.host/ekip/users/login?redirect=%2F
+Client IP: 165.169.76.22
+2023-05-06 13:06:57 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 13:07:07 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 13:07:07 error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or invalid CSRF cookie. in /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 394
+Stack Trace:
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:170
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/ekiptech/public_html/ekip/webroot/index.php:40
+
+Request URL: /users/login
+Referer URL: https://ekiptech.lareunion.webcup.hodi.host/ekip/users/login
+Client IP: 192.168.161.12
+2023-05-06 13:07:21 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 13:07:23 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 13:07:40 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 13:07:40 error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or invalid CSRF cookie. in /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 394
+Stack Trace:
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:170
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/ekiptech/public_html/ekip/webroot/index.php:40
 
 Request URL: /users/add
-Referer URL: http://localhost:8765/users/add
-2023-05-06 10:23:45 error: [Error] Class "App\Model\Entity\DefaultPasswordHasher" not found in /Users/fitzflorian/delivery/webcup/ekip_tech/src/Model/Entity/User.php on line 54
+Referer URL: https://ekiptech.lareunion.webcup.hodi.host/ekip/users/add
+Client IP: 165.169.76.22
+2023-05-06 13:09:06 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 13:09:10 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 13:09:17 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 13:09:23 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 13:09:42 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 13:09:49 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 13:09:50 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 13:09:50 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 13:09:51 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 13:09:51 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 13:09:53 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 13:09:55 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 13:10:03 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 13:10:18 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 13:10:19 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 13:10:24 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 13:10:24 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 13:10:24 error: [Cake\Http\Exception\MissingControllerException] Controller class Ekip could not be found. in /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Ekip',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Ekip',
+)
 Stack Trace:
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Datasource/EntityTrait.php:260
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/ORM/Marshaller.php:606
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/ORM/Table.php:2886
-- /Users/fitzflorian/delivery/webcup/ekip_tech/src/Controller/UsersController.php:51
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Controller/Controller.php:547
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:86
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:67
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Server.php:90
-- /Users/fitzflorian/delivery/webcup/ekip_tech/webroot/index.php:40
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/ekiptech/public_html/ekip/webroot/index.php:40
 
-Request URL: /users/add
-Referer URL: http://localhost:8765/users/add
-2023-05-06 13:30:26 error: [Cake\Http\Exception\MissingControllerException] Controller class Ekip_tech could not be found. in /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Request URL: /ekip/users/login?redirect=%2F
+Referer URL: https://ekiptech.lareunion.webcup.hodi.host/ekip/users
+Client IP: 165.169.76.22
+2023-05-06 13:10:29 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 13:10:54 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 13:12:48 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 13:12:50 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 13:38:36 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 13:38:36 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 13:38:36 error: [Cake\Http\Exception\MissingControllerException] Controller class Ekip_tech could not be found. in /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
 Exception Attributes: array (
   'controller' => 'Ekip_tech',
   'plugin' => NULL,
@@ -60,29 +444,32 @@ Exception Attributes: array (
   'class' => 'Ekip_tech',
 )
 Stack Trace:
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:86
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:67
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Server.php:90
-- /Users/fitzflorian/delivery/webcup/ekip_tech/webroot/index.php:40
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/ekiptech/public_html/ekip/webroot/index.php:40
 
 Request URL: /ekip_tech/users/login?redirect=%2F
-2023-05-06 13:30:57 error: [Cake\Http\Exception\MissingControllerException] Controller class Ekip_tech could not be found. in /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Client IP: 165.169.76.22
+2023-05-06 13:38:40 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 13:44:21 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 13:44:21 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 13:44:21 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 13:44:21 error: [Cake\Http\Exception\MissingControllerException] Controller class Ekip_tech could not be found. in /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
 Exception Attributes: array (
   'controller' => 'Ekip_tech',
   'plugin' => NULL,
@@ -91,29 +478,32 @@ Exception Attributes: array (
   'class' => 'Ekip_tech',
 )
 Stack Trace:
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:86
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:67
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Server.php:90
-- /Users/fitzflorian/delivery/webcup/ekip_tech/webroot/index.php:40
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/ekiptech/public_html/ekip/webroot/index.php:40
 
 Request URL: /ekip_tech/users/login?redirect=%2F
-2023-05-06 13:31:42 error: [Cake\Http\Exception\MissingControllerException] Controller class Ekip_tech could not be found. in /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Client IP: 165.169.76.22
+2023-05-06 13:44:36 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 13:47:04 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 13:47:07 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 13:47:07 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 13:47:07 error: [Cake\Http\Exception\MissingControllerException] Controller class Ekip_tech could not be found. in /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
 Exception Attributes: array (
   'controller' => 'Ekip_tech',
   'plugin' => NULL,
@@ -122,25 +512,61 @@ Exception Attributes: array (
   'class' => 'Ekip_tech',
 )
 Stack Trace:
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:86
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:82
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Runner.php:67
-- /Users/fitzflorian/delivery/webcup/ekip_tech/vendor/cakephp/cakephp/src/Http/Server.php:90
-- /Users/fitzflorian/delivery/webcup/ekip_tech/webroot/index.php:40
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/ekiptech/public_html/ekip/webroot/index.php:40
 
 Request URL: /ekip_tech/users/login?redirect=%2F
+Client IP: 165.169.76.22
+2023-05-06 13:49:46 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 13:49:46 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 13:49:46 error: [Cake\Http\Exception\MissingControllerException] Controller class Ekip_tech could not be found. in /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Ekip_tech',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Ekip_tech',
+)
+Stack Trace:
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/ekiptech/public_html/ekip/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/ekiptech/public_html/ekip/webroot/index.php:40
+
+Request URL: /ekip_tech/users/login?redirect=%2F
+Client IP: 165.169.76.22
+2023-05-06 13:49:49 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 13:49:58 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 13:50:04 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 13:50:05 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2023-05-06 13:50:07 warning: DebugKit is disabling itself as your host `ekiptech.lareunion.webcup.hodi.host` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
