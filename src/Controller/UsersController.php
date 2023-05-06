@@ -8,11 +8,11 @@ use Cake\Event\EventInterface;
 class UsersController extends AppController
 {
 
-    // public function beforeFilter(EventInterface $event)
-    // {
-    //     parent::beforeFilter($event);
-    //     $this->Authentication->addUnauthenticatedActions(['login']);
-    // }
+    public function beforeFilter(EventInterface $event)
+    {
+        parent::beforeFilter($event);
+        $this->Authentication->addUnauthenticatedActions(['login']);
+    }
 
     public function index()
     {
