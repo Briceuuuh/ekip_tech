@@ -32,8 +32,8 @@ class UsersController extends AppController
 
         if ($res->isValid()) {
             $redirection = $this->request->getQuery('redirect', [
-                'controller' => 'Users',
-                'action' => 'Add'
+                'controller' => 'Home',
+                'action' => 'index'
             ]);
             return $this->redirect($redirection);
         }
@@ -50,7 +50,7 @@ class UsersController extends AppController
 
         if ($res->isValid()) {
             $this->Authentication->logout();
-            return $this->redirect(['controller' => 'Users', 'action' => 'login']);
+            return $this->redirect(['controller' => 'Home', 'action' => 'index']);
         }
     }
 

@@ -11,7 +11,17 @@
         flex-direction: row;
         text-align: right;
     ">
-    <?= $this->Html->link(__('Login'), ['controller' => 'users', 'action' => 'login'], ['class' => 'button']) ?>
+    <?php
+      $connected = $this->request->getAttribute('identity');
+        if ($connected) {
+          $name = $this->request->getAttribute('identity')->firstname;
+          echo '<a>' . $name . '</a>';
+          echo $this->Html->link(__('Logout'), ['controller' => 'users', 'action' => 'logout'], ['class' => 'button']);
+        }
+        else
+          echo $this->Html->link(__('Login'), ['controller' => 'users', 'action' => 'login'], ['class' => 'button']);
+    ?>
+    <!-- <?= $this->Html->link(__('Login'), ['controller' => 'users', 'action' => 'login'], ['class' => 'button']) ?> -->
     <!-- <?= $this->Html->link(__('SignUp'), ['action' => 'login'], ['class' => 'button']) ?> -->
     </div>
 </header>
