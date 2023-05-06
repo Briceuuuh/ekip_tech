@@ -18,34 +18,6 @@ return [
      */
     'debug' => filter_var(env('DEBUG', false), FILTER_VALIDATE_BOOLEAN),
 
-    /*
-     * Configure basic information about the application.
-     *
-     * - namespace - The namespace to find app classes under.
-     * - defaultLocale - The default locale for translation, formatting currencies and numbers, date and time.
-     * - encoding - The encoding used for HTML + database connections.
-     * - base - The base directory the app resides in. If false this
-     *   will be auto detected.
-     * - dir - Name of app directory.
-     * - webroot - The webroot directory.
-     * - wwwRoot - The file path to webroot.
-     * - baseUrl - To configure CakePHP to *not* use mod_rewrite and to
-     *   use CakePHP pretty URLs, remove these .htaccess
-     *   files:
-     *      /.htaccess
-     *      /webroot/.htaccess
-     *   And uncomment the baseUrl key below.
-     * - fullBaseUrl - A base URL to use for absolute links. When set to false (default)
-     *   CakePHP generates required value based on `HTTP_HOST` environment variable.
-     *   However, you can define it manually to optimize performance or if you
-     *   are concerned about people manipulating the `Host` header.
-     * - imageBaseUrl - Web path to the public images directory under webroot.
-     * - cssBaseUrl - Web path to the public css directory under webroot.
-     * - jsBaseUrl - Web path to the public js directory under webroot.
-     * - paths - Configure paths for non class based resources. Supports the
-     *   `plugins`, `templates`, `locales` subkeys, which allow the definition of
-     *   paths for plugins, view templates and locale files respectively.
-     */
     'App' => [
         'namespace' => 'App',
         'encoding' => env('APP_ENCODING', 'UTF-8'),
@@ -207,25 +179,6 @@ return [
         'editor' => 'phpstorm',
     ],
 
-    /*
-     * Email configuration.
-     *
-     * By defining transports separately from delivery profiles you can easily
-     * re-use transport configuration across multiple profiles.
-     *
-     * You can specify multiple configurations for production, development and
-     * testing.
-     *
-     * Each transport needs a `className`. Valid options are as follows:
-     *
-     *  Mail   - Send using PHP mail function
-     *  Smtp   - Send using SMTP
-     *  Debug  - Do not send the email, just return the result
-     *
-     * You can add custom transports (or override existing transports) by adding the
-     * appropriate file to src/Mailer/Transport. Transports should be named
-     * 'YourTransport.php', where 'Your' is the name of the transport.
-     */
     'EmailTransport' => [
         'default' => [
             'className' => MailTransport::class,
@@ -247,15 +200,6 @@ return [
         ],
     ],
 
-    /*
-     * Email delivery profiles
-     *
-     * Delivery profiles allow you to predefine various properties about email
-     * messages from your application and give the settings a name. This saves
-     * duplication across your application and makes maintenance and development
-     * easier. Each profile accepts a number of keys. See `Cake\Mailer\Email`
-     * for more information.
-     */
     'Email' => [
         'default' => [
             'transport' => 'default',
@@ -268,30 +212,7 @@ return [
         ],
     ],
 
-    /*
-     * Connection information used by the ORM to connect
-     * to your application's datastores.
-     *
-     * ### Notes
-     * - Drivers include Mysql Postgres Sqlite Sqlserver
-     *   See vendor\cakephp\cakephp\src\Database\Driver for complete list
-     * - Do not use periods in database name - it may lead to error.
-     *   See https://github.com/cakephp/cakephp/issues/6471 for details.
-     * - 'encoding' is recommended to be set to full UTF-8 4-Byte support.
-     *   E.g set it to 'utf8mb4' in MariaDB and MySQL and 'utf8' for any
-     *   other RDBMS.
-     */
     'Datasources' => [
-        /*
-         * These configurations should contain permanent settings used
-         * by all environments.
-         *
-         * The values in app_local.php will override any values set here
-         * and should be used for local and per-environment configurations.
-         *
-         * Environment variable based configurations can be loaded here or
-         * in app_local.php depending on the applications needs.
-         */
         'default' => [
             'className' => Connection::class,
             'driver' => Mysql::class,
@@ -312,14 +233,6 @@ return [
             'cacheMetadata' => true,
             'log' => false,
 
-            /*
-             * Set identifier quoting to true if you are using reserved words or
-             * special characters in your table or column names. Enabling this
-             * setting will result in queries built using the Query Builder having
-             * identifiers quoted when creating SQL. It should be noted that this
-             * decreases performance because each query needs to be traversed and
-             * manipulated before being executed.
-             */
             'quoteIdentifiers' => false,
 
             /*
