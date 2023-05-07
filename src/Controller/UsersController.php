@@ -41,6 +41,7 @@ class UsersController extends AppController
          * @var \Authentication\Authenticator\ResultInterface
          */
         $res = $this->Authentication->getResult();
+        $this->viewBuilder()->setLayout('homeLayout');
 
         if ($res->isValid()) {
             $redirection = $this->request->getQuery('redirect', [
@@ -124,6 +125,7 @@ class UsersController extends AppController
             $this->Flash->error(__('The user could not be saved. Please, try again.'));
         }
         $this->set(compact('user'));
+        $this->viewBuilder()->setLayout('homeLayout');
     }
     public function signup()
     {
@@ -139,6 +141,7 @@ class UsersController extends AppController
             $this->Flash->error(__("Erreur. L'utilisateur existe peut-être déja"));
         }
         $this->set(compact('user'));
+        $this->viewBuilder()->setLayout('homeLayout');
     }
 
     /**

@@ -21,16 +21,15 @@
               $admin = $this->request->getAttribute ('identity')->admin;
               echo '<a>' . $name .'</a>';
               if ($admin == 0) {
-                echo $this->Html->link(__('Admin Panel'), ['controller' => 'users', 'action' => 'index'], ['class' => 'buttontest']);
+                echo $this->Html->link(__('Admin Panel'), ['controller' => 'users', 'action' => 'index'], ['class' => 'buttontest', 'style' => 'right: 12%']);
                 // echo $this->Html->link(__('discution'), ['controller' => 'users', 'action' => 'index'],['class' => 'buttontest']);
-                echo $this->Html->link(__('Logout'), ['controller' => 'users', 'action' => 'logout'], ['class' => 'buttontest']);
               }
+              echo $this->Html->link(__('Logout'), ['controller' => 'users', 'action' => 'logout'], ['class' => 'buttontest']);
             } else {
               echo $this->Html->link(__('Se connecter'), ['controller' => 'users', 'action' => 'login'], ['class' => 'buttontest']);
               echo $this->Html->link(__("S'inscrire"), ['controller' => 'users', 'action' => 'signup'], ['class' => 'buttonSignUp']);
             }
         ?>
-        <!-- <?= $this->Html->link(__('Login'), ['action' => 'login'], ['class' => 'buttontest']) ?> -->
     </div>
 </header>
 
@@ -193,15 +192,19 @@
 
         <div>
             <input type="text" id="message" name="message" class="input" placeholder="Nom complet">
+          </div>
+          <div>
             <button class="buttonClick" id="envoyer-button">Envoyer</button>
-        </div>
+          </div>
         <script>
         $(document).ready(function() {
             $('#envoyer-button').click(function() {
-                var user_input = $('#message').val();
+              console.log('pass');
+              var user_input = $('#message').val();
+              console.log('input = ' + user_input);
                 $.ajax({
                     type: 'GET',
-                    url: '<?= $this->Url->build(['controller' => 'Test', 'action' => 'getRandomResponse']) ?>/' + user_input,
+                    url: '<?= $this->Url->build(['controller' => 'home', 'action' => 'getRandomResponse']) ?>/' + user_input,
                     dataType: 'json',
                     success: function(data) {
                         var message = $('#message').val();

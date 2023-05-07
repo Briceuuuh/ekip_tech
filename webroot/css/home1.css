@@ -50,7 +50,6 @@ body {
     }
     .parallax-wrap img:nth-child(1) {
       justify-content: center;
-      background: blue;
       z-index: 0;
     }
 
@@ -353,21 +352,30 @@ nav a:hover {
       }
 
       .buttonClick {
-          background-color: white;
-          color: #000;
-      }
+        background-color: lightblue;
+        height: 5%;
+        width: 50%;
+        margin-left: 25%;
+        color: #000;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-bottom: 2%;
+        transition: font-size 0.5s ease-in-out;
+    }
 
-      .buttonClick:hover {
-          background-color: grey;
-          color: black;
-      }
+    .buttonClick:hover {
+        font-size: 15px;
+    }
 
-      .input {
-          border-radius: 4px;
-          padding: 8px;
-          font-size: 16px;
-          height: 5%;
-      }
+    .input {
+        border-radius: 4px;
+        padding: 8px;
+        font-size: 16px;
+        height: 5%;
+        width: 80%;
+        margin-left: 10%;
+        border-radius: 10px;
+    }
 
       .imgLogo {
           width: 75;
