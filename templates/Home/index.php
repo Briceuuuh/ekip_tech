@@ -33,6 +33,7 @@
     </div>
 </header>
 
+
 <div class="screens">
     <div class="screen screen2">
         <div class="parallax-wrap">
@@ -41,18 +42,18 @@
             <div class="moon" id="moon7"><div></div></div>
             <div class="moon" id="moon8"><div></div></div>
             <div class="z-index: 999;" id="pres" >
-                <h2 class="grow-on-hover" value="-5">Présentation</h2>
+                <h2 class="grow-on-hover" value="-5">L'institut</h2>
             </div>
         </div>
     </div>
     <div class="screen screen1">
       <div class="parallax-wrap">
-          <img value="3" src=" <?= $this->Url->build('/', ['fullBase' => true]) ?>img/ia_screen.png">></img>
+          <img value="3" src=" <?= $this->Url->build('/', ['fullBase' => true]) ?>img/ia_screen.png"></img>
           <div class="moon" id="moon1"><div></div></div>
           <div class="moon" id="moon2"><div></div></div>
           <div class="moon" id="moon3"><div></div></div>
           <div class="z-index: 999;" id="ony" >
-              <h2 class="grow-on-hover" value="-5">ONIRIX</h2>
+              <h2 class="grow-on-hover" value="-5">L'IA des Rêves</h2>
           </div>
       </div>
     </div>
@@ -64,7 +65,7 @@
         <div class="moon" id="moon6"><div></div></div>
         <div class="moon" id="moon9"><div></div></div>
         <div class="z-index: 999;" id="ia" >
-            <h2 class="grow-on-hover" value="-5">Utiliser l'IA</h2>
+            <h2 class="grow-on-hover" value="-5">ONIRIX</h2>
     </div>
   </div>
 </div>
@@ -83,40 +84,39 @@
   <div class="popup-overlay"></div>
   <div class="popup-content">
     <div class="popup-content-inner">
-      <!-- <img id="popup-image" src="/img/cerv.jpg" alt="cerv"> -->
+      <img id="popup-image" src="<?= $this->Url->build('/', ['fullBase' => true]) ?>img/reve.jpg"></img>
       <div class="text-container">
-      <h4 class="text-design">Bienvenue à l'Institut International des Rêves !<br>
+      <h4 class="text-design"><br><br><br>Bienvenue à l'Institut International des Rêves !<br>
       Nous sommes une entreprise dédiée à la recherche et à l'exploration du monde mystérieux des rêves.<br>
-      Notre mission est de comprendre la signification et l'importance des rêves dans nos vies.<br>
       </h4>
       </div>
     </div>
     <div class="popup-content-inner">
       <div class="text-container">
-        <h4 class="text-design">Bienvenue à l'Institut International des Rêves !<br>
-        Nous sommes une entreprise dédiée à la recherche et à l'exploration du monde mystérieux des rêves.<br>
-        Notre mission est de comprendre la signification et l'importance des rêves dans nos vies.<br>
-      </h4>
+        <h4 class="text-design"><br><br><br>
+        Notre mission est de comprendre la signification et l'importance des rêves dans nos vies.
+        Notre équipe d'experts multidisciplinaires, dévoués explorent les mystères des rêves pour mieux comprendre notre subconscient .
+        pour explorer les aspects psychologiques, neurologiques et symboliques des rêves.
+        Grâce à des années de recherche approfondie, nous avons développé des techniques de pointe pour analyser les rêves et
+        en extraire des prédictions surprenantes.
+    </h4>
     </div>
-    <!-- <img id="popup-image" src="/img/cerv.jpg" alt="cerv"> -->
-    </div>
-    <div class="popup-content-inner">
-      <!-- <img id="popup-image" src="/img/cerv.jpg" alt="cerv"> -->
-      <div class="text-container">
-        <h4 class="text-design">Bienvenue à l'Institut International des Rêves !<br>
-        Nous sommes une entreprise dédiée à la recherche et à l'exploration du monde mystérieux des rêves.<br>
-        Notre mission est de comprendre la signification et l'importance des rêves dans nos vies.<br>
-      </h4>
-    </div>
+    <img id="popup-image" src="<?= $this->Url->build('/', ['fullBase' => true]) ?>img/scienti.jpeg"></img>
     </div>
     <div class="popup-content-inner">
       <div class="text-container">
-        <h4 class="text-design">Bienvenue à l'Institut International des Rêves !<br>
-        Nous sommes une entreprise dédiée à la recherche et à l'exploration du monde mystérieux des rêves.<br>
-        Notre mission est de comprendre la signification et l'importance des rêves dans nos vies.<br>
+        <h4 class="text-design">Principales recherches menées par notre institut: <br/><br/>
+        - 1.Étude des motifs et des symboles oniriques: Nos chercheurs analysent les motifs
+        récurrents dans les rêves pour en déduire des significations symboliques profondes.
       </h4>
     </div>
-    <!-- <img id="popup-image" src="/img/cerv.jpg" alt="cerv"> -->
+    <div class="text-container">
+        <h4 class="text-design"> - 2.Analyse des émotions et des réactions physiologiques : Nous étudions les
+        réactions émotionnelles et physiologiques associées aux rêves. En examinant les variations de
+        fréquence cardiaque, de mouvements oculaires et d'autres indicateurs, nous sommes en mesure de
+        mieux comprendre les états émotionnels et les expériences vécues pendant le sommeil.
+      </h4>
+    </div>
     </div>
   </div>
 </div>
@@ -130,40 +130,62 @@
   <div class="popup-overlay"></div>
   <div class="popup-content">
     <div class="popup-content-inner">
-      <!-- <img id="popup-image" src="/img/cerv.jpg" alt="cerv"> -->
+    <img id="popup-image" src="<?= $this->Url->build('/', ['fullBase' => true]) ?>img/aiozi.png"></img>
       <div class="text-container">
-      <h4 class="text-design">Bienvenue à l'Institut International des Rêves !<br>
-      Nous sommes une entreprise dédiée à la  et l'importance des rêves dans nos vies.<br>
+      <h4 class="text-design"><br><br><br>Bienvenue sur la plateforme Onirix - Explorez votre avenir à travers vos rêves. Découvrez
+        une technologie révolutionnaire développée par l'Institut International des Rêves : Onirix, une intelligence
+        artificielle avancée capable d'analyser et de décoder vos rêves pour prédire votre avenir. Imaginez pouvoir
+        obtenir des informations prédictives sur des situations telles qu'une rencontre amoureuse, des défis professionnels,
+        des réussites scolaires, ou même des enjeux de santé importants.
       </h4>
       </div>
     </div>
     <div class="popup-content-inner">
       <div class="text-container">
-        <h4 class="text-design">Bienvenue à l'Institut International des Rêves !<br>
-        Nous sommes une entreprise dédiée à la recherche et à l'exploration du monde mystérieux des rêves.<br>
-        Notre mission est de comprendre la signification et l'importance des rêves dans nos vies.<br>
+        <h4 class="text-design"><br><br><br><br><br>Onirix est le fruit d'années de recherche et de développement. Grâce à des algorithmes avancés d'apprentissage automatique et de traitement du langage naturel, Onirix analyse vos rêves en profondeur et décode leurs significations cachées.
+L'IA identifie les symboles, les émotions et les motifs récurrents pour prédire les événements futurs qui pourraient vous concerner
       </h4>
     </div>
-    <!-- <img id="popup-image" src="/img/cerv.jpg" alt="cerv"> -->
+    <img id="popup-image" src="<?= $this->Url->build('/', ['fullBase' => true]) ?>img/num.jpg"></img>
     </div>
     <div class="popup-content-inner">
-      <!-- <img id="popup-image" src="/img/cerv.jpg" alt="cerv"> -->
+    <img id="popup-image" src="<?= $this->Url->build('/', ['fullBase' => true]) ?>img/myIa.png"></img>
       <div class="text-container">
-        <h4 class="text-design">Bienvenue à l'Institut International des Rêves !<br>
-        Nous sommes une entreprise dédiée à la recherche et à l'exploration du monde mystérieux des rêves.<br>
-        Notre mission est de comprendre la signification et l'importance des rêves dans nos vies.<br>
+        <h4 class="text-design"><br><br>Dans le cadre de notre projet ambitieux, nous avons créé une plateforme web interactive
+            qui vous permet de soumettre facilement la description de vos rêves et d'obtenir des prédictions prémonitoires
+            personnalisées. Notre interface conviviale vous guidera tout au long du processus, tandis que les résultats
+            de l'analyse de vos rêves seront présentés de manière claire et précise. Explorez votre avenir à travers vos
+            rêves et laissez-vous guider par les informations dévoilées par Onirix.
       </h4>
     </div>
     </div>
     <div class="popup-content-inner">
       <div class="text-container">
-        <h4 class="text-design">Bienvenue à l'Institut International des Rêves !<br>
-        Nous sommes une entreprise dédiée à la recherche et à l'exploration du monde mystérieux des rêves.<br>
-        Notre mission est de comprendre la signification et l'importance des rêves dans nos vies.<br>
+        <h4 class="text-design">Résultats d'analyses et prédictions: <br/><br/>
+- 1. Relations personnelles : Nos analyses peuvent prédire les dynamiques relationnelles, que ce soit dans les relations amoureuses, familiales ou amicales. Les rêves révèlent souvent des indices subtils sur les interactions sociales et les sentiments interpersonnels.
       </h4>
     </div>
-    <!-- <img id="popup-image" src="/img/cerv.jpg" alt="cerv"> -->
+    <div class="text-container">
+        <h4 class="text-design">
+- 2. Carrière et réussite professionnelle : Nos analyses peuvent fournir des informations sur les opportunités
+professionnelles, les défis à venir et les choix de carrière potentiels, vous donnant un aperçu précieux pour
+votre succès professionnel.<br/><br/>
+- 3. Santé et bien-être : Nos recherches peuvent détecter des signaux précurseurs de problèmes de santé potentiels dans les rêves. Les symboles, les scénarios et les éléments oniriques se révèlent être des indicateurs précieux pour anticiper votre bien-être futur.
+      </h4>
     </div>
+</div>
+<div class="popup-content-inner">
+    <div class="text-container">
+      <h4 class="text-design"><br><br><br><br>Changez votre vie grâce à Onirix :<br/>
+Nous croyons fermement que l'IA Onirix est destinée à changer la vie de nombreuses personnes.
+En vous offrant une vision unique de votre avenir, Onirix vous donne la possibilité de prendre
+des décisions éclairées et de vous préparer aux défis à venir. Nous sommes convaincus que les rêves
+peuvent devenir la clé de notre destinée grâce à l'intelligence artificielle révolutionnaire de l'Institut International des Rêves.
+    </h4>
+  </div>
+  <img id="popup-image" src="<?= $this->Url->build('/', ['fullBase' => true]) ?>img/future.png"></img>
+  </div>
+</div>
   </div>
 </div>
 

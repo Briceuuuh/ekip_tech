@@ -305,25 +305,20 @@ nav a:hover {
   }
 
   .text-container {
-  text-align: left;
-  width: 50%;
-  width: 50%;
-  margin-left: 40px;
-  margin-right: 40px;
-  border-radius: 10px;
-  padding-left: 25px;
-  padding-right: 25px;
-  }
-
-  /* @font-face {
-  font-family: "test";
-  src: url(/font/Signika-Regular.ttf);
-  } */
+    width: 50%;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 10px;
+    padding-left: 25px;
+    justify-content: center;
+    padding-right: 25px;
+    }
 
   .text-design {
   font-family: "test" sans-serif;
   color: white;
   font-size: 23px;
+  justify-content:center;
   }
 
 
