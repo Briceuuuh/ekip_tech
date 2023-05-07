@@ -36,7 +36,7 @@
                 <?= $this->Form->submit(__("Se connecter")) ?>
             </div>
             <div class="signup-link">
-               Pas encore inscrit ? <a href="/users/signin">S'inscrire</a>
+               Pas encore inscrit ? <a href="/users/signup">S'inscrire</a>
             </div>
             <?= $this->Form->end() ?>
       </div>

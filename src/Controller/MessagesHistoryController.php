@@ -33,15 +33,12 @@ class MessagesHistoryController extends AppController
         if (!$connected)
             return $this->redirect(['controller' => 'home', 'action' => 'index']);
 
-        $msg = $this->MessagesHistory->find('all');
+        $all_msg = $this->getTableLocator()->get('MessagesHistory');
         $user_id = $this->request->getAttribute('identity')->id;
-        $msg = $msg->select([
-            'MessagesHistory.msg',
-            'MessagesHistory.response'
-        ])->where(
-            ['MessagesHistory.user_id' => $user_id]
-        );
-        $this->set(compact('msg'));
+        $messagesHistory = $this->getTableLocator()->get('MessagesHistory')->find()
+        ->where(['user_id' => $user_id])->all();
+        $this->set(compact('messagesHistory'));
+        $this->viewBuilder()->setLayout('homeLayout');
     }
 
     /**

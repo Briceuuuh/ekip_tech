@@ -374,13 +374,13 @@ nav a:hover {
     }
 
       .imgLogo {
-          width: 75;
-          height: 75;
+          width: 175;
+          height: 175;
       }
       .imgLogoCross {
           width: 20;
           height: 20;
-          margin-bottom: 1.5%;
+          margin-bottom: 4%;
       }
       .style {
           flex-direction: row;
@@ -398,6 +398,16 @@ nav a:hover {
           border-radius: 10px;
           color: black;
       }
+
+      .buttontest2 {
+        background-color: white;
+        /* position: absolute; */
+        /* right: 3%; */
+        /* top: 50%; */
+        
+        border-radius: 10px;
+        color: black;
+    }
 
       .buttonSignUp {
         background-color: white;

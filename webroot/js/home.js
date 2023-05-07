@@ -12,16 +12,24 @@ function parallax(event) {
 document.addEventListener('DOMContentLoaded', () => {
     const screens = document.querySelectorAll('.screen');
 
-    document.querySelector('.screens').addEventListener('scroll', () => {
-    const offset = window.innerWidth * 0.2;
-    const scroll = document.querySelector('.screens').scrollLeft;
-    screens.forEach((screen) => {
-        const x = (scroll - screen.offsetLeft + offset) / 100;
-        screen.style.transform = `translateX(${x}px)`;
-    });
-    });
-
     document.querySelector('.screens').scrollLeft = window.innerWidth;
+    const screensContainer = document.querySelector('.screens');
+    // const btnPrev = document.querySelector('.btn-prev');
+    // const btnNext = document.querySelector('.btn-next');
+
+    // btnPrev.addEventListener('click', () => {
+    //     screensContainer.scrollBy({
+    //         left: -window.innerWidth,
+    //         behavior: 'smooth'
+    //     });
+    // });
+
+    // btnNext.addEventListener('click', () => {
+    //     screensContainer.scrollBy({
+    //         left: window.innerWidth,
+    //         behavior: 'smooth'
+    //     });
+    // });
 
     const press = document.getElementById('pres');
     const popup = document.getElementById('popup');
