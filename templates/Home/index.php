@@ -167,7 +167,13 @@
   </div>
 </div>
 
-
+<?= $this->Html->script(['query.js',
+        'home.js'
+        ])?>
+        <?= $this->Html->css(['home1.css',
+        ])?>
+        <?= $this->fetch('script') ?>
+        <?= $this->fetch('css') ?>
 <!-- IA -->
 <div id="popupIa" class="popup open">
     <span id="popupIa-close" class="popup-closedesign">
@@ -175,13 +181,6 @@
     </span>
     <div class="popup-overlay"></div>
     <div class="popup-content">
-        <?= $this->Html->script(['query.js',
-        'home.js'
-        ])?>
-        <?= $this->Html->css(['home1.css',
-        ])?>
-        <?= $this->fetch('script') ?>
-        <?= $this->fetch('css') ?>
 
         <style>
 
@@ -190,12 +189,19 @@
             <div id="chat-messages"></div>
         </div>
 
-        <div>
-            <input type="text" id="message" name="message" class="input" placeholder="Nom complet">
+        <?php
+        $connected = $this->request->getAttribute ('identity');
+        if ($connected) { ?>
+          <div>
+              <input type="text" id="message" name="message" class="input" placeholder="Nom complet">
           </div>
           <div>
             <button class="buttonClick" id="envoyer-button">Envoyer</button>
           </div>
+        <?php } else { ?>
+          <?= $this->Html->link(__('Se connecter'), ['controller' => 'users', 'action' => 'login'], ['class' => 'buttontest', 'style' => 'right: 30%'])?>
+        <?php }
+        ?>
         <script>
         $(document).ready(function() {
             $('#envoyer-button').click(function() {
@@ -204,7 +210,7 @@
               console.log('input = ' + user_input);
                 $.ajax({
                     type: 'GET',
-                    url: '<?= $this->Url->build(['controller' => 'home', 'action' => 'getRandomResponse']) ?>/' + user_input,
+                    url: '<?= $this->Url->build(['controller' => 'home', 'action' => 'getRandomResponse']) ?>/' + encodeURIComponent(user_input),
                     dataType: 'json',
                     success: function(data) {
                         var message = $('#message').val();

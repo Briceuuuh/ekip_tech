@@ -27,18 +27,13 @@
          </div>
          <?= $this->Form->create() ?>
             <div class="field">
-               <!-- <input type="text" required> -->
-               <!-- <label>Adresse mail</label> -->
                <?php echo $this->Form->input('email', ['required' => true, 'autocomplete' => 'off', 'class' => 'form-style', 'placeholder' => "Email"]);?><br>
             </div>
             <div class="field">
-               <!-- <input type="password" required> -->
-               <!-- <label>Mot de passe</label> -->
                <?php echo $this->Form->input('password', ['required' => true, 'autocomplete' => 'off', 'class' => 'form-style', 'placeholder' => "Mot de passe", 'type' => 'password']);?><br>
             </div>
             <div class="field">
                 <?= $this->Form->submit(__("Se connecter")) ?>
-               <!-- <input type="submit" value="Se connecter"> -->
             </div>
             <div class="signup-link">
                Pas encore inscrit ? <a href="/users/signin">S'inscrire</a>
