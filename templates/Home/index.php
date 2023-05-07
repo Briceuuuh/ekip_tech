@@ -19,6 +19,7 @@
           echo '<a>' . $name . '</a>';
           if ($admin == 0)
             echo $this->Html->link(__('Admin Panel'), ['controller' => 'users', 'action' => 'index'], ['class' => 'button']);
+            echo $this->Html->link(__('Historique conversation'), ['controller' => 'MessagesHistory', 'action' => 'index'], ['class' => 'button']);
           echo $this->Html->link(__('Logout'), ['controller' => 'users', 'action' => 'logout'], ['class' => 'button']);
         }
         else {
